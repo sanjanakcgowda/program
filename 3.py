@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-data = pd.DataFrame(data=pd.read_csv('2b.csv'))
+data = pd.DataFrame(data=pd.read_csv('3b.csv'))
 concepts = np.array(data.iloc[:,0:-1])
 target = np.array(data.iloc[:,-1])
 
